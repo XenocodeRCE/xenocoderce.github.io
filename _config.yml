@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: The Black Cat
+description: blog about MSIL-related topics and obfuscation
+meta_description: "The Black Cat, blog about MSIL-related topics and obfuscation"
 
 markdown: kramdown
 highlighter: rouge
@@ -13,7 +13,7 @@ plugins: [jekyll-paginate]
 
 # Details for the RSS feed generator
 url: ""
-author: "Your Name"
+author: "Sam Harwood"
 
 # Disqus config
 disqus-shortname: ""
