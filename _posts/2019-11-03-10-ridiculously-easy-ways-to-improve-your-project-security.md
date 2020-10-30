@@ -3,7 +3,7 @@ layout: post
 title: 10 Ridiculously Easy Ways to Improve Your Project Security
 date:
   'Sun Nov 03 2019 01:00:00 GMT+0100 (heure normale d’Europe centrale)': null
-categories: Tips Security Help
+categories: Tips
 published: true
 comments: true
 ---
