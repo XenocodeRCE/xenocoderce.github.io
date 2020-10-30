@@ -1,0 +1,35 @@
+---
+layout: post
+title: The Xmas update is coming🎄
+date:
+  'Sun Nov 03 2019 01:00:00 GMT+0100 (heure normale d’Europe centrale)': null
+categories: Tips
+published: true
+comments: true
+---
+
+Hey there, how do you do ? I hope everything is good because christmas is approaching 🎅
+
+It has been a long time since we have deployed a major NETGuard update. This is due to several reasons, notably the fact that since NETGuard exists, that is to say 2014 (!), the Reverse Engineering community focused on the framework and applications of the Microsoft .NET Framework has not stopped evolving : before, only a few brave men ventured to program utilities to help de-obfuscation, while now anyone, with a targeted Google search, can quite find ready-made utilities to de-obfuscate almost any obfuscator.
+
+There is also the fact that Yck, the developer of ConfuserEx, left behind him before leaving the scene the source code of ConfuserEx, which certainly contains some faults but which does a non-negligible job, and especially this source is very modular which allows almost anyone to be able to modify the source to their liking and produce a different result from the others without necessarily needing a lot of knowledge in reverse engineering 😉. This is well understood by the people who make de-obfuscation tools and this is how we saw the release of open-source code of very complete de-obfuscation tools, and in the same way as ConfuserEx participates in the development of personalized obfuscation tools, open-source de-obfuscation tools now allow almost anyone to be able to de-obfuscate any application.
+
+Among these tools, there are notably the emulators; these are tools that allow you to retrieve the output result of a set of protected or encrypted instructions, without having to decipher its instructions one by one: the de-obfuscation process therefore becomes increasingly simple, since there has less and less steps to do (which raises the question of the future existence of a universal automated de-obfuscation tool?). These emulators focus on the Microsoft .NET Framework, although there are many emulators for just about any type of compiled or assembled file.
+
+![](https://blognetguard.files.wordpress.com/2019/12/yisfmc2.png?w=1024)
+
+an overview of our new native protection process, which generates totally different files for each build
+
+We therefore decided to redirect the development direction that NETGuard was taking, by concentrating our efforts to improve the security of your source codes using native technology (ASM, C, C ++, Delphi). This will allow us all two new possibilities:
+
+-- 🛡️ At first it will make those who develop de-obfuscation utilities spend more time analyzing how our algorithms work, and let those who developed utilities and who only had knowledge about of the Microsoft .NET Framework drop the case. Of course there are utilities to be able to debug the native code, and of course we are aware of the fact that this is not a definitive solution, since there is by nature no definitive solution. We are just making it more difficult than before.
+
+-- ⚔️ Secondly, we want to let you use any obfuscation and protection utilities made for the native code. This is expressed by the fact that we are going to let you protect the native library (.DLL file) used by NETGuard, by any native code protection tool. So you can add a layer of protection to your protected program yourself.
+
+![](https://blognetguard.files.wordpress.com/2019/12/vh9onnk.png?w=758)
+
+DRM protection helps prevent malicious users from using your program
+
+Also, and finally, we note that the DRM protection meets a promising success with our premium users; to date (17/12/2019) it is more than 400 hacking attempts avoided on protected software. This success makes us want to provide you with more extensive DRM protection, allowing you not only to protect your data of type strings and integers, but entire functions.
+
+We hope that these end of year celebrations will take place in the best possible way for you, thank you for being faithful to our services, since it is thanks to you that since 2014 we can continue to provide you with quality service for the cheapest price on the market. 🎄 ❤️
