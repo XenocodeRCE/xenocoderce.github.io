@@ -1,13 +1,9 @@
 ---
 layout: post
 title: 10 Ridiculously Easy Ways to Improve Your Project Security
-date: {}
-categories: Thriller Comedy Horror
+date: {2019-11-03}
+categories: Tips Security Help
 published: true
----
----
-layout: post
-title: 10 Ridiculously Easy Ways to Improve Your Project Security
 ---
 
 *Four months ago we asked more than 120 of our customer to fill in a form so we could know a little bit more about them. Today is the day we will review what they answered by giving 10 ridiculously easy ways to improve your project security !*
